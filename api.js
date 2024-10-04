@@ -25,7 +25,7 @@ function createResponse(body, contentType = "application/json", status = 200) {
       "Access-Control-Allow-Origin": "*",
       "Access-Control-Allow-Methods": "GET",
       "Access-Control-Allow-Headers":
-        "Content-Type, Authorization, hx-current-url, hx-request, hx-target, hx-trigger, hx-trigger-name",
+        "Content-Type, Authorization",
     },
   });
 }
