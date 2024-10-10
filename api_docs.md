@@ -22,7 +22,7 @@ All endpoints are relative to this base URL.
 
 **Example Request**:
 
-```http
+```sh
 curl https://api.example.com/gallery?include_rating_id=1&include_tag_id=12
 ```
 
@@ -74,7 +74,7 @@ curl https://api.example.com/gallery?include_rating_id=1&include_tag_id=12
 - `artwork_id` (required): A comma-separated list of artwork IDs.
 - **Example Request**:
 
-```http
+```sh
 curl https://api.example.com/artworks?artwork_id=101,102
 ```
 
@@ -110,7 +110,7 @@ curl https://api.example.com/artworks?artwork_id=101,102
 - `tag_id` (optional): Filter the tags by a specific tag ID.
 - **Example Request**:
 
-```http
+```sh
 curl https://api.example.com/tags?rating_id=1
 ```
 
@@ -146,7 +146,7 @@ curl https://api.example.com/tags?rating_id=1
 
 **Example Request**:
 
-```http
+```sh
 curl https://api.example.com/references?include_reference_gallery_name=Impressionism%20model%20references
 ```
 
